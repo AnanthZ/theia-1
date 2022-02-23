@@ -1,9 +1,13 @@
-.team_members{
-    display: flex;
-  }
-  .team_member{
-    padding: min(1vw,1vh);
-  }
-  .team_member_img{
-    border-radius: 50%;
-  }
+.App {
+  height: 100vh;
+}
+
+.team_members {
+  display: flex;
+}
+.team_member {
+  padding: min(1vw, 1vh);
+}
+.team_member_img {
+  border-radius: 50%;
+}

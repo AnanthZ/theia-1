@@ -1,0 +1,11 @@
+.profile__page {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.profile__page__left,
+.profile__page__right {
+  flex: 1;
+  border: 1px solid black;
+}
