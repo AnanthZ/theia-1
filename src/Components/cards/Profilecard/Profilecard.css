@@ -1,0 +1,20 @@
+.Profilecard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.details{
+    padding-top: 30px;
+    width: 50%;
+}
+.details-part{
+    line-height: 2px;
+    padding: 5px;
+    font-size: 14px;
+}
+.details-part h1{
+    font-size: 40px;
+}
+.details-part h4{
+    font-size: 20px;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import ProfileImageIcon from "../icons/ProfileImageIcon";
 import { Link } from "react-router-dom";
+import './Teammember.css'
 
 function Teammember({ guy }) {
   return (
@@ -15,7 +16,7 @@ function Teammember({ guy }) {
             profileImageUrl={guy.profileImageUrl}
           />
         </Link>
-        <h4>{`${guy.fistName} ${guy.lastName}`}</h4>
+        <h4>{`${guy.firstName} ${guy.lastName}`}</h4>
       </div>
     </div>
   );
