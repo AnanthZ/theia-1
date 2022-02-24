@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../Assets/logo.svg";
 import ProfileImageIcon from "../icons/ProfileImageIcon";
+import IconBtn from "../Buttons/IconBtn";
+import LogoutIcon from "../../Assets/svgIcons/logoutIcon.svg";
+import { colors } from "../../constants/colors";
 
 const styles = {
   navBar: {
@@ -12,7 +15,7 @@ const styles = {
     alignItems: "center",
     position: "sticky",
     top: 0,
-    backgroundColor: "#000",
+    backgroundColor: colors.black,
   },
   logoContainer: {
     flex: 1,
@@ -40,7 +43,15 @@ function NavigationBar() {
         <Link to={"/profile/ayushThakre"}>
           <ProfileImageIcon />
         </Link>
-        <p style={{ color: "#FFF" }}>Logout</p>
+        <IconBtn
+          icon={
+            <img
+              style={{ height: "1.5rem", width: "1.5rem" }}
+              src={LogoutIcon}
+              alt={"Logout Icon"}
+            />
+          }
+        />
       </div>
     </nav>
   );
